@@ -12,3 +12,4 @@
 /Users/jiggyg/Desktop/driverQuiz/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.pdb
 /Users/jiggyg/Desktop/driverQuiz/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.genruntimeconfig.cache
 /Users/jiggyg/Desktop/driverQuiz/ConsoleApp1/obj/Debug/net10.0/ref/ConsoleApp1.dll
+/Users/jiggyg/Desktop/driverQuiz/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.sourcelink.json

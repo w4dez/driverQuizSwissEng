@@ -19,57 +19,142 @@ public class Program
 
     int correct = 0;
     int wrong = 0;
+    List<Question> wrongQuestions = new List<Question>();
 
-    Console.WriteLine("Driving theory quiz started. Answer 30 random questions.");
+    Console.WriteLine("Driving theory quiz started.");
     Console.WriteLine();
 
     for (int i = 0; i < randomQuestions.Count; i++)
     {
       Question question = randomQuestions[i];
+      List<Answer> qAnswers = new List<Answer>();
 
-      List<Answer> answers = allAnswers
-        .Where(a => a.QeustionId == question.Id)
-        .OrderBy(x => Guid.NewGuid())
-        .ToList();
+      foreach (Answer answer in allAnswers)
+      {
+        if (answer.QeustionId == question.Id)
+        {
+          qAnswers.Add(answer);
+        }
+      }
+
+      qAnswers = qAnswers.OrderBy(x => Guid.NewGuid()).ToList();
 
       Console.WriteLine("Question " + (i + 1) + " of " + randomQuestions.Count);
       Console.WriteLine(question.QuestionText);
 
-      for (int j = 0; j < answers.Count; j++)
+      for (int j = 0; j < qAnswers.Count; j++)
       {
-        Console.WriteLine((j + 1) + ". " + answers[j].AnswerText);
+        Console.WriteLine((j + 1) + ". " + qAnswers[j].AnswerText);
       }
 
-      Console.Write("Your answer (1-" + answers.Count + "): ");
+      Console.Write("Your answer (1-" + qAnswers.Count + ") or press q to quit: ");
       string? input = Console.ReadLine();
 
-      if (int.TryParse(input, out int number) && number >= 1 && number <= answers.Count)
+      if (input != null && input.ToLower() == "q")
       {
-        Answer chosen = answers[number - 1];
+        Console.WriteLine();
+        Console.WriteLine("You quit the quiz.");
+        return;
+      }
+
+      if (int.TryParse(input, out int number) && number >= 1 && number <= qAnswers.Count)
+      {
+        Answer chosen = qAnswers[number - 1];
 
         if (chosen.IsCorrect == true)
         {
           correct = correct + 1;
-          Console.WriteLine("Correct!");
+          Console.WriteLine("Right ans!");
         }
         else
         {
           wrong = wrong + 1;
-          Console.WriteLine("Wrong!");
+          wrongQuestions.Add(question);
+          Console.WriteLine("Wrong");
         }
       }
       else
       {
         wrong = wrong + 1;
-        Console.WriteLine("Invalid input. Counted as wrong.");
+        wrongQuestions.Add(question);
+        Console.WriteLine("Invalid input");
       }
 
       Console.WriteLine();
     }
 
-    Console.WriteLine("Quiz finished!");
+    Console.WriteLine("Quiz is finished!");
     Console.WriteLine("Correct answers: " + correct);
     Console.WriteLine("Wrong answers: " + wrong);
     Console.WriteLine("Score: " + correct + " / " + randomQuestions.Count);
+
+    if (wrongQuestions.Count > 0)
+    {
+      Console.WriteLine();
+      Console.WriteLine("Questions u answered wrong. They need to be reanswered:");
+      Console.WriteLine();
+
+      for (int i = 0; i < wrongQuestions.Count; i++)
+      {
+        Question question = wrongQuestions[i];
+        List<Answer> qAnswers = new List<Answer>();
+
+        foreach (Answer answer in allAnswers)
+        {
+          if (answer.QeustionId == question.Id)
+          {
+            qAnswers.Add(answer);
+          }
+        }
+
+        qAnswers = qAnswers.OrderBy(x => Guid.NewGuid()).ToList();
+
+        Console.WriteLine("Question " + (i + 1) + ": " + question.QuestionText);
+
+        for (int j = 0; j < qAnswers.Count; j++)
+        {
+          Console.WriteLine((j + 1) + ". " + qAnswers[j].AnswerText);
+        }
+
+        while (true)
+        {
+          Console.Write("Try again or press q to quit: ");
+          string? tryAgain = Console.ReadLine();
+
+          if (tryAgain != null && tryAgain.ToLower() == "q")
+          {
+            Console.WriteLine();
+            Console.WriteLine("You quit the review.");
+            return;
+          }
+
+          if (int.TryParse(tryAgain, out int number) && number >= 1 && number <= qAnswers.Count)
+          {
+            Answer chosen = qAnswers[number - 1];
+
+            if (chosen.IsCorrect == true)
+            {
+              Console.WriteLine("Correct! Good job.");
+              Console.WriteLine();
+              break;
+            }
+            else
+            {
+              Console.WriteLine("Wrong. Try again.");
+            }
+          }
+          else
+          {
+            Console.WriteLine("Wrong. Try again.");
+          }
+        }
+      }
+
+      Console.WriteLine("You answered all wrong questions correctly.");
+    }
+    else
+    {
+      Console.WriteLine("You got all questions right in the first try!");
+    }
   }
 }

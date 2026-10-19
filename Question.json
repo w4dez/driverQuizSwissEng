@@ -178,35 +178,5 @@
     "CategoryId": 5,
     "Explanation": "",
     "QuestionText": "What should you do if your brakes fail while driving?"
-  },
-  {
-    "Id": 31,
-    "CategoryId": 1,
-    "Explanation": "",
-    "QuestionText": "What does a red triangle with a black exclamation mark mean?"
-  },
-  {
-    "Id": 32,
-    "CategoryId": 1,
-    "Explanation": "",
-    "QuestionText": "What does a blue square sign with a white \u0027P\u0027 mean?"
-  },
-  {
-    "Id": 33,
-    "CategoryId": 1,
-    "Explanation": "",
-    "QuestionText": "What does a red circle with a blue background and a red diagonal line mean?"
-  },
-  {
-    "Id": 34,
-    "CategoryId": 1,
-    "Explanation": "",
-    "QuestionText": "What does a red circle with a blue background and a red X mean?"
-  },
-  {
-    "Id": 34,
-    "CategoryId": 1,
-    "Explanation": "",
-    "QuestionText": "What does a yellow triangle with a black train symbol mean?"
   }
 ]
