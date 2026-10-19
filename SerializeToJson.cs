@@ -60,12 +60,8 @@ public class SerializeToJson
             new Question { Id = 27, CategoryId = 5, QuestionText = "When must you use a warning triangle?", Explanation = "" },
             new Question { Id = 28, CategoryId = 5, QuestionText = "What is the purpose of ABS (Anti-lock Braking System)?", Explanation = "" },
             new Question { Id = 29, CategoryId = 5, QuestionText = "How should you adjust your mirrors before driving?", Explanation = "" },
-            new Question { Id = 30, CategoryId = 5, QuestionText = "What should you do if your brakes fail while driving?", Explanation = "" },
-            new Question { Id = 31, CategoryId = 1, QuestionText = "What does a red triangle with a black exclamation mark mean?", Explanation = "" },
-            new Question { Id = 32, CategoryId = 1, QuestionText = "What does a blue square sign with a white 'P' mean?", Explanation = "" },
-            new Question { Id = 33, CategoryId = 1, QuestionText = "What does a red circle with a blue background and a red diagonal line mean?", Explanation = "" },
-            new Question { Id = 34, CategoryId = 1, QuestionText = "What does a red circle with a blue background and a red X mean?", Explanation = "" },
-            new Question { Id = 34, CategoryId = 1, QuestionText = "What does a yellow triangle with a black train symbol mean?", Explanation = "" },
+            new Question { Id = 30, CategoryId = 5, QuestionText = "What should you do if your brakes fail while driving?", Explanation = "" }
+
         };
     SaveJson("Question.json", questions);
 
