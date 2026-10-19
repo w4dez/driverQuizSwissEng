@@ -1,0 +1,212 @@
+[
+  {
+    "Id": 1,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a round red sign with a white horizontal bar mean?"
+  },
+  {
+    "Id": 2,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does an inverted triangle sign with a red border mean?"
+  },
+  {
+    "Id": 3,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a yellow diamond-shaped sign indicate?"
+  },
+  {
+    "Id": 4,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a blue circular sign with a white arrow pointing up mean?"
+  },
+  {
+    "Id": 5,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a red circle with a white horizontal line inside mean?"
+  },
+  {
+    "Id": 6,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a triangular sign with a red border and a pedestrian symbol mean?"
+  },
+  {
+    "Id": 7,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a circular sign with a red border and the number \u002750\u0027 mean?"
+  },
+  {
+    "Id": 8,
+    "CategoryId": 2,
+    "Explanation": "",
+    "QuestionText": "At an intersection without signs, who has the right of way?"
+  },
+  {
+    "Id": 9,
+    "CategoryId": 2,
+    "Explanation": "",
+    "QuestionText": "You are turning left at an intersection. Who has right of way?"
+  },
+  {
+    "Id": 10,
+    "CategoryId": 2,
+    "Explanation": "",
+    "QuestionText": "A pedestrian is crossing at a zebra crossing. What must you do?"
+  },
+  {
+    "Id": 11,
+    "CategoryId": 2,
+    "Explanation": "",
+    "QuestionText": "You are entering a roundabout. Who has right of way?"
+  },
+  {
+    "Id": 12,
+    "CategoryId": 2,
+    "Explanation": "",
+    "QuestionText": "A police officer signals you to stop even though the light is green. What do you do?"
+  },
+  {
+    "Id": 13,
+    "CategoryId": 2,
+    "Explanation": "",
+    "QuestionText": "You are on a main road. A car wants to enter from a side street. Who has priority?"
+  },
+  {
+    "Id": 14,
+    "CategoryId": 3,
+    "Explanation": "",
+    "QuestionText": "What is the general speed limit in a residential area (built-up zone)?"
+  },
+  {
+    "Id": 15,
+    "CategoryId": 3,
+    "Explanation": "",
+    "QuestionText": "What is the recommended speed in a 30 km/h zone?"
+  },
+  {
+    "Id": 16,
+    "CategoryId": 3,
+    "Explanation": "",
+    "QuestionText": "How fast may you drive on a highway if no speed is posted?"
+  },
+  {
+    "Id": 17,
+    "CategoryId": 3,
+    "Explanation": "",
+    "QuestionText": "You are driving in heavy fog. How should you adjust your speed?"
+  },
+  {
+    "Id": 18,
+    "CategoryId": 3,
+    "Explanation": "",
+    "QuestionText": "You are passing a school bus that has stopped with flashing lights. What do you do?"
+  },
+  {
+    "Id": 19,
+    "CategoryId": 4,
+    "Explanation": "",
+    "QuestionText": "What is the legal blood alcohol limit for drivers in most European countries?"
+  },
+  {
+    "Id": 20,
+    "CategoryId": 4,
+    "Explanation": "",
+    "QuestionText": "How does alcohol affect driving ability?"
+  },
+  {
+    "Id": 21,
+    "CategoryId": 4,
+    "Explanation": "",
+    "QuestionText": "You took medicine that causes drowsiness. May you drive?"
+  },
+  {
+    "Id": 22,
+    "CategoryId": 4,
+    "Explanation": "",
+    "QuestionText": "What happens if you are caught driving under the influence of drugs?"
+  },
+  {
+    "Id": 23,
+    "CategoryId": 5,
+    "Explanation": "",
+    "QuestionText": "What is the minimum tread depth for car tyres?"
+  },
+  {
+    "Id": 24,
+    "CategoryId": 5,
+    "Explanation": "",
+    "QuestionText": "When should you switch on your headlights?"
+  },
+  {
+    "Id": 25,
+    "CategoryId": 5,
+    "Explanation": "",
+    "QuestionText": "How often should you check your tyre pressure?"
+  },
+  {
+    "Id": 26,
+    "CategoryId": 5,
+    "Explanation": "",
+    "QuestionText": "What does the red oil warning light mean?"
+  },
+  {
+    "Id": 27,
+    "CategoryId": 5,
+    "Explanation": "",
+    "QuestionText": "When must you use a warning triangle?"
+  },
+  {
+    "Id": 28,
+    "CategoryId": 5,
+    "Explanation": "",
+    "QuestionText": "What is the purpose of ABS (Anti-lock Braking System)?"
+  },
+  {
+    "Id": 29,
+    "CategoryId": 5,
+    "Explanation": "",
+    "QuestionText": "How should you adjust your mirrors before driving?"
+  },
+  {
+    "Id": 30,
+    "CategoryId": 5,
+    "Explanation": "",
+    "QuestionText": "What should you do if your brakes fail while driving?"
+  },
+  {
+    "Id": 31,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a red triangle with a black exclamation mark mean?"
+  },
+  {
+    "Id": 32,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a blue square sign with a white \u0027P\u0027 mean?"
+  },
+  {
+    "Id": 33,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a red circle with a blue background and a red diagonal line mean?"
+  },
+  {
+    "Id": 34,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a red circle with a blue background and a red X mean?"
+  },
+  {
+    "Id": 34,
+    "CategoryId": 1,
+    "Explanation": "",
+    "QuestionText": "What does a yellow triangle with a black train symbol mean?"
+  }
+]

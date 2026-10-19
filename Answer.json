@@ -1,0 +1,572 @@
+[
+  {
+    "Id": 1,
+    "QeustionId": 1,
+    "AnswerText": "No Entry",
+    "IsCorrect": true
+  },
+  {
+    "Id": 2,
+    "QeustionId": 1,
+    "AnswerText": "Stop",
+    "IsCorrect": false
+  },
+  {
+    "Id": 3,
+    "QeustionId": 1,
+    "AnswerText": "Yield",
+    "IsCorrect": false
+  },
+  {
+    "Id": 4,
+    "QeustionId": 1,
+    "AnswerText": "End of restrictions",
+    "IsCorrect": false
+  },
+  {
+    "Id": 5,
+    "QeustionId": 2,
+    "AnswerText": "Yield",
+    "IsCorrect": true
+  },
+  {
+    "Id": 6,
+    "QeustionId": 2,
+    "AnswerText": "Stop",
+    "IsCorrect": false
+  },
+  {
+    "Id": 7,
+    "QeustionId": 2,
+    "AnswerText": "Priority road",
+    "IsCorrect": false
+  },
+  {
+    "Id": 8,
+    "QeustionId": 2,
+    "AnswerText": "No entry",
+    "IsCorrect": false
+  },
+  {
+    "Id": 9,
+    "QeustionId": 3,
+    "AnswerText": "Priority road",
+    "IsCorrect": true
+  },
+  {
+    "Id": 10,
+    "QeustionId": 3,
+    "AnswerText": "Warning",
+    "IsCorrect": false
+  },
+  {
+    "Id": 11,
+    "QeustionId": 3,
+    "AnswerText": "End of priority road",
+    "IsCorrect": false
+  },
+  {
+    "Id": 12,
+    "QeustionId": 4,
+    "AnswerText": "Proceed straight ahead only",
+    "IsCorrect": true
+  },
+  {
+    "Id": 13,
+    "QeustionId": 4,
+    "AnswerText": "Turn right",
+    "IsCorrect": false
+  },
+  {
+    "Id": 14,
+    "QeustionId": 4,
+    "AnswerText": "Turn left",
+    "IsCorrect": false
+  },
+  {
+    "Id": 15,
+    "QeustionId": 4,
+    "AnswerText": "Roundabout",
+    "IsCorrect": false
+  },
+  {
+    "Id": 16,
+    "QeustionId": 5,
+    "AnswerText": "No Entry",
+    "IsCorrect": true
+  },
+  {
+    "Id": 17,
+    "QeustionId": 5,
+    "AnswerText": "Stop",
+    "IsCorrect": false
+  },
+  {
+    "Id": 18,
+    "QeustionId": 5,
+    "AnswerText": "No Parking",
+    "IsCorrect": false
+  },
+  {
+    "Id": 19,
+    "QeustionId": 6,
+    "AnswerText": "Pedestrian crossing ahead",
+    "IsCorrect": true
+  },
+  {
+    "Id": 20,
+    "QeustionId": 6,
+    "AnswerText": "No pedestrians",
+    "IsCorrect": false
+  },
+  {
+    "Id": 21,
+    "QeustionId": 6,
+    "AnswerText": "School zone",
+    "IsCorrect": false
+  },
+  {
+    "Id": 22,
+    "QeustionId": 7,
+    "AnswerText": "Maximum speed 50 km/h",
+    "IsCorrect": true
+  },
+  {
+    "Id": 23,
+    "QeustionId": 7,
+    "AnswerText": "Minimum speed 50 km/h",
+    "IsCorrect": false
+  },
+  {
+    "Id": 24,
+    "QeustionId": 7,
+    "AnswerText": "Recommended speed 50 km/h",
+    "IsCorrect": false
+  },
+  {
+    "Id": 25,
+    "QeustionId": 8,
+    "AnswerText": "The vehicle on the right",
+    "IsCorrect": true
+  },
+  {
+    "Id": 26,
+    "QeustionId": 8,
+    "AnswerText": "The vehicle on the left",
+    "IsCorrect": false
+  },
+  {
+    "Id": 27,
+    "QeustionId": 8,
+    "AnswerText": "The faster vehicle",
+    "IsCorrect": false
+  },
+  {
+    "Id": 28,
+    "QeustionId": 8,
+    "AnswerText": "The larger vehicle",
+    "IsCorrect": false
+  },
+  {
+    "Id": 29,
+    "QeustionId": 9,
+    "AnswerText": "Oncoming traffic and traffic turning right",
+    "IsCorrect": true
+  },
+  {
+    "Id": 30,
+    "QeustionId": 9,
+    "AnswerText": "No one, you go first",
+    "IsCorrect": false
+  },
+  {
+    "Id": 31,
+    "QeustionId": 9,
+    "AnswerText": "Only pedestrians",
+    "IsCorrect": false
+  },
+  {
+    "Id": 32,
+    "QeustionId": 10,
+    "AnswerText": "Stop and let the pedestrian cross",
+    "IsCorrect": true
+  },
+  {
+    "Id": 33,
+    "QeustionId": 10,
+    "AnswerText": "Honk and continue",
+    "IsCorrect": false
+  },
+  {
+    "Id": 34,
+    "QeustionId": 10,
+    "AnswerText": "Slow down but keep going",
+    "IsCorrect": false
+  },
+  {
+    "Id": 35,
+    "QeustionId": 11,
+    "AnswerText": "Traffic already in the roundabout",
+    "IsCorrect": true
+  },
+  {
+    "Id": 36,
+    "QeustionId": 11,
+    "AnswerText": "Traffic entering the roundabout",
+    "IsCorrect": false
+  },
+  {
+    "Id": 37,
+    "QeustionId": 11,
+    "AnswerText": "The larger vehicle",
+    "IsCorrect": false
+  },
+  {
+    "Id": 38,
+    "QeustionId": 12,
+    "AnswerText": "Follow the police officer\u0027s signal",
+    "IsCorrect": true
+  },
+  {
+    "Id": 39,
+    "QeustionId": 12,
+    "AnswerText": "Follow the traffic light",
+    "IsCorrect": false
+  },
+  {
+    "Id": 40,
+    "QeustionId": 12,
+    "AnswerText": "Stop and wait for instructions",
+    "IsCorrect": false
+  },
+  {
+    "Id": 41,
+    "QeustionId": 13,
+    "AnswerText": "You have priority",
+    "IsCorrect": true
+  },
+  {
+    "Id": 42,
+    "QeustionId": 13,
+    "AnswerText": "The car from the side street",
+    "IsCorrect": false
+  },
+  {
+    "Id": 43,
+    "QeustionId": 13,
+    "AnswerText": "Whoever is faster",
+    "IsCorrect": false
+  },
+  {
+    "Id": 44,
+    "QeustionId": 14,
+    "AnswerText": "50 km/h",
+    "IsCorrect": true
+  },
+  {
+    "Id": 45,
+    "QeustionId": 14,
+    "AnswerText": "30 km/h",
+    "IsCorrect": false
+  },
+  {
+    "Id": 46,
+    "QeustionId": 14,
+    "AnswerText": "70 km/h",
+    "IsCorrect": false
+  },
+  {
+    "Id": 47,
+    "QeustionId": 14,
+    "AnswerText": "100 km/h",
+    "IsCorrect": false
+  },
+  {
+    "Id": 48,
+    "QeustionId": 15,
+    "AnswerText": "30 km/h",
+    "IsCorrect": true
+  },
+  {
+    "Id": 49,
+    "QeustionId": 15,
+    "AnswerText": "50 km/h",
+    "IsCorrect": false
+  },
+  {
+    "Id": 50,
+    "QeustionId": 15,
+    "AnswerText": "20 km/h",
+    "IsCorrect": false
+  },
+  {
+    "Id": 51,
+    "QeustionId": 16,
+    "AnswerText": "The default highway limit of the country",
+    "IsCorrect": true
+  },
+  {
+    "Id": 52,
+    "QeustionId": 16,
+    "AnswerText": "Unlimited speed",
+    "IsCorrect": false
+  },
+  {
+    "Id": 53,
+    "QeustionId": 16,
+    "AnswerText": "80 km/h",
+    "IsCorrect": false
+  },
+  {
+    "Id": 54,
+    "QeustionId": 17,
+    "AnswerText": "Reduce speed to stop within visible distance",
+    "IsCorrect": true
+  },
+  {
+    "Id": 55,
+    "QeustionId": 17,
+    "AnswerText": "Turn on high beams and continue",
+    "IsCorrect": false
+  },
+  {
+    "Id": 56,
+    "QeustionId": 17,
+    "AnswerText": "Keep the same speed",
+    "IsCorrect": false
+  },
+  {
+    "Id": 57,
+    "QeustionId": 18,
+    "AnswerText": "Stop and wait until it\u0027s safe",
+    "IsCorrect": true
+  },
+  {
+    "Id": 58,
+    "QeustionId": 18,
+    "AnswerText": "Pass slowly",
+    "IsCorrect": false
+  },
+  {
+    "Id": 59,
+    "QeustionId": 18,
+    "AnswerText": "Honk and pass",
+    "IsCorrect": false
+  },
+  {
+    "Id": 60,
+    "QeustionId": 19,
+    "AnswerText": "0.5 per mille (0.05%)",
+    "IsCorrect": true
+  },
+  {
+    "Id": 61,
+    "QeustionId": 19,
+    "AnswerText": "1.0 per mille (0.10%)",
+    "IsCorrect": false
+  },
+  {
+    "Id": 62,
+    "QeustionId": 19,
+    "AnswerText": "0.0 per mille",
+    "IsCorrect": false
+  },
+  {
+    "Id": 63,
+    "QeustionId": 20,
+    "AnswerText": "It slows reaction time and impairs judgement",
+    "IsCorrect": true
+  },
+  {
+    "Id": 64,
+    "QeustionId": 20,
+    "AnswerText": "It improves concentration",
+    "IsCorrect": false
+  },
+  {
+    "Id": 65,
+    "QeustionId": 20,
+    "AnswerText": "It has no effect",
+    "IsCorrect": false
+  },
+  {
+    "Id": 66,
+    "QeustionId": 21,
+    "AnswerText": "No, you must not drive",
+    "IsCorrect": true
+  },
+  {
+    "Id": 67,
+    "QeustionId": 21,
+    "AnswerText": "Yes, if you drive slowly",
+    "IsCorrect": false
+  },
+  {
+    "Id": 68,
+    "QeustionId": 21,
+    "AnswerText": "Only at night",
+    "IsCorrect": false
+  },
+  {
+    "Id": 69,
+    "QeustionId": 22,
+    "AnswerText": "License suspension, fines and possible criminal charges",
+    "IsCorrect": true
+  },
+  {
+    "Id": 70,
+    "QeustionId": 22,
+    "AnswerText": "Only a warning",
+    "IsCorrect": false
+  },
+  {
+    "Id": 71,
+    "QeustionId": 22,
+    "AnswerText": "No consequences",
+    "IsCorrect": false
+  },
+  {
+    "Id": 72,
+    "QeustionId": 23,
+    "AnswerText": "1.6 mm",
+    "IsCorrect": true
+  },
+  {
+    "Id": 73,
+    "QeustionId": 23,
+    "AnswerText": "0.5 mm",
+    "IsCorrect": false
+  },
+  {
+    "Id": 74,
+    "QeustionId": 23,
+    "AnswerText": "3.0 mm",
+    "IsCorrect": false
+  },
+  {
+    "Id": 75,
+    "QeustionId": 24,
+    "AnswerText": "Whenever visibility is reduced",
+    "IsCorrect": true
+  },
+  {
+    "Id": 76,
+    "QeustionId": 24,
+    "AnswerText": "Only at night",
+    "IsCorrect": false
+  },
+  {
+    "Id": 77,
+    "QeustionId": 24,
+    "AnswerText": "Only in tunnels",
+    "IsCorrect": false
+  },
+  {
+    "Id": 78,
+    "QeustionId": 25,
+    "AnswerText": "At least once a month",
+    "IsCorrect": true
+  },
+  {
+    "Id": 79,
+    "QeustionId": 25,
+    "AnswerText": "Once a year",
+    "IsCorrect": false
+  },
+  {
+    "Id": 80,
+    "QeustionId": 25,
+    "AnswerText": "Only when a tyre looks flat",
+    "IsCorrect": false
+  },
+  {
+    "Id": 81,
+    "QeustionId": 26,
+    "AnswerText": "Low oil pressure \u2013 stop the engine",
+    "IsCorrect": true
+  },
+  {
+    "Id": 82,
+    "QeustionId": 26,
+    "AnswerText": "Low fuel",
+    "IsCorrect": false
+  },
+  {
+    "Id": 83,
+    "QeustionId": 26,
+    "AnswerText": "Low tyre pressure",
+    "IsCorrect": false
+  },
+  {
+    "Id": 84,
+    "QeustionId": 27,
+    "AnswerText": "When your vehicle breaks down on the road",
+    "IsCorrect": true
+  },
+  {
+    "Id": 85,
+    "QeustionId": 27,
+    "AnswerText": "Whenever you park",
+    "IsCorrect": false
+  },
+  {
+    "Id": 86,
+    "QeustionId": 27,
+    "AnswerText": "Only on highways",
+    "IsCorrect": false
+  },
+  {
+    "Id": 87,
+    "QeustionId": 28,
+    "AnswerText": "Prevents wheels from locking during braking",
+    "IsCorrect": true
+  },
+  {
+    "Id": 88,
+    "QeustionId": 28,
+    "AnswerText": "Increases engine power",
+    "IsCorrect": false
+  },
+  {
+    "Id": 89,
+    "QeustionId": 28,
+    "AnswerText": "Saves fuel",
+    "IsCorrect": false
+  },
+  {
+    "Id": 90,
+    "QeustionId": 29,
+    "AnswerText": "So you can see behind and beside your car with minimal head movement",
+    "IsCorrect": true
+  },
+  {
+    "Id": 91,
+    "QeustionId": 29,
+    "AnswerText": "To see the passengers",
+    "IsCorrect": false
+  },
+  {
+    "Id": 92,
+    "QeustionId": 29,
+    "AnswerText": "To see your own car",
+    "IsCorrect": false
+  },
+  {
+    "Id": 93,
+    "QeustionId": 30,
+    "AnswerText": "Pump the brakes, shift to a lower gear, use handbrake gently, find a safe place to stop",
+    "IsCorrect": true
+  },
+  {
+    "Id": 94,
+    "QeustionId": 30,
+    "AnswerText": "Turn off the engine immediately",
+    "IsCorrect": false
+  },
+  {
+    "Id": 95,
+    "QeustionId": 30,
+    "AnswerText": "Accelerate to regain control",
+    "IsCorrect": false
+  }
+]
