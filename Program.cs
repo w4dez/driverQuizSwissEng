@@ -14,7 +14,7 @@ public class Program
 
     List<Question> randomQuestions = allQuestions
       .OrderBy(x => Guid.NewGuid())
-      .Take(30)
+      .Take(15)
       .ToList();
 
     int correct = 0;
@@ -99,10 +99,10 @@ public class Program
 
     if (wrongQuestions.Count > 0)
     {
+
       Console.WriteLine();
       Console.WriteLine("Questions u answered wrong. They need to be reanswered:");
       Console.WriteLine();
-
       for (int i = 0; i < wrongQuestions.Count; i++)
       {
         Question question = wrongQuestions[i];
@@ -122,11 +122,14 @@ public class Program
 
         for (int j = 0; j < qAnswers.Count; j++)
         {
+
           Console.WriteLine((j + 1) + ". " + qAnswers[j].AnswerText);
         }
 
         while (true)
         {
+          string? input = InputHelper.ReadLineWithTimeout();
+
           Console.Write("Try again or press q to quit: ");
           string? tryAgain = Console.ReadLine();
 
