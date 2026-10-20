@@ -48,7 +48,16 @@ public class Program
       }
 
       Console.Write("Your answer (1-" + qAnswers.Count + ") or press q to quit: ");
-      string? input = Console.ReadLine();
+      string? input = InputHelper.ReadLineWithTimeout();
+
+      if (input == null)
+      {
+        wrong = wrong + 1;
+        wrongQuestions.Add(question);
+        Console.WriteLine("Time's up");
+        Console.WriteLine();
+        continue;
+      }
 
       if (input != null && input.ToLower() == "q")
       {
